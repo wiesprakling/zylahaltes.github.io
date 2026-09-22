@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="masthead">
+    <div class="wrap masthead-grid">
+      <div>
+        <h1 class="name" id="name">Your Name</h1>
+        <p class="role" id="role">Your Role</p>
+      </div>
+      <div class="intro-side">
+        <p class="bio" id="bio">Bio goes here.</p>
+        <div class="meta-row">
+          <span id="location">Location</span>
+          <a id="email-link" href="#">email@example.com</a>
+          <span id="socials"></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="section-head">
+      <h2>Projects</h2>
+      <span class="count"><span id="project-count">00</span> total</span>
+    </div>
+    <div id="project-list"></div>
+  </main>
+
+  <footer class="wrap">
+    <span>© <span id="year"></span> <span id="footer-name"></span></span>
+    <span>Built and deployed with GitHub Pages</span>
+  </footer>
+
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
