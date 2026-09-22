@@ -11,6 +11,7 @@ function initials(name) {
 
 function renderProfile() {
   document.title = `${siteConfig.name} — ${siteConfig.role}`;
+  document.getElementById("nav-name").textContent = siteConfig.name;
   document.getElementById("name").textContent = siteConfig.name;
   document.getElementById("role").textContent = siteConfig.role;
   document.getElementById("bio").textContent = siteConfig.bio;
@@ -119,3 +120,4 @@ function renderProjects() {
 
 renderProfile();
 renderProjects();
+
