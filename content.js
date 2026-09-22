@@ -44,7 +44,7 @@ const projects = [
   {
     title: "Kalinga: A Mobile Application for OFW caretakers in Taiwan",
     summary: "Welcome to Kalinga, an AI care companion for migrant caregivers. This guide gets a new developer from a fresh clone to a running local environment, and covers the rules everyone on the team follows. Read the whole thing once before you write code. This project was submitted at the Presidential Hackathon of Taiwan.",
-    images: ["kalinga.png", "kalinga 1.png", "kalinga 2.png", "kalinga 3.png"],
+    images: ["Kalinga.png", "kalinga 1.png", "kalinga 2.png", "kalinga 3.png"],
     tags: ["RAG", "Machine Learning", "Mobile App Development"],
     links: {
       live: "https://drive.google.com/file/d/1WYs9CfnMusZbxssqA7drSeMXsYquKz-b/view?usp=drive_link", //video demo only
