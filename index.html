@@ -8,37 +8,46 @@
 </head>
 <body>
 
-  <header class="masthead">
-    <div class="wrap masthead-grid">
-      <div>
-        <h1 class="name" id="name">Your Name</h1>
-        <p class="role" id="role">Your Role</p>
+  <nav class="nav">
+    <div class="wrap nav-inner">
+      <span class="nav-name" id="nav-name">Your Name</span>
+      <div class="nav-links">
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
       </div>
-      <div class="intro-side">
-        <p class="bio" id="bio">Bio goes here.</p>
-        <div class="meta-row">
-          <span id="location">Location</span>
-          <a id="email-link" href="#">email@example.com</a>
-          <span id="socials"></span>
-        </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow" id="role">Your Role</p>
+      <h1 class="name" id="name">Your Name</h1>
+      <p class="bio" id="bio">Bio goes here.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" id="email-link" href="#">Get in touch</a>
+        <div class="hero-socials" id="socials"></div>
       </div>
+      <p class="location" id="location">Location</p>
     </div>
   </header>
 
-  <main class="wrap">
+  <main class="wrap" id="work">
     <div class="section-head">
-      <h2>Projects</h2>
-      <span class="count"><span id="project-count">00</span> total</span>
+      <h2>Selected work</h2>
+      <span class="count"><span id="project-count">00</span> projects</span>
     </div>
-    <div id="project-list"></div>
+    <div id="project-list" class="project-grid"></div>
   </main>
 
-  <footer class="wrap">
-    <span>© <span id="year"></span> <span id="footer-name"></span></span>
-    <span>Built and deployed with GitHub Pages</span>
+  <footer class="wrap" id="contact">
+    <div class="footer-inner">
+      <span>© <span id="year"></span> <span id="footer-name"></span></span>
+      <span class="footer-note">Built and deployed with GitHub Pages</span>
+    </div>
   </footer>
 
   <script src="content.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
+
